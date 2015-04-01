@@ -1,0 +1,101 @@
+.move {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	border-radius: 10px;
+	margin: 12px;
+	border: 1px solid black;
+}
+
+.move:hover {
+	border: 2px solid red;
+}
+.row {
+	text-align: center;
+	font-size: 30px;
+}
+.result {
+	height: 200px;
+	width: 300px;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 60px;
+}
+.rock {
+	height: 100px;
+	width: 100px;
+	background-image: url('../images/rock.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	opacity: .8;
+}
+.paper {
+	height: 100px;
+	width: 100px;
+	background-image: url('../images/paper.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	opacity: .8;
+}
+.scissors {
+	height: 100px;
+	width: 100px;
+	background-image: url('../images/scissors.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	opacity: .8;
+}
+
+.rock:hover {
+	height: 100px;
+	width: 100px;
+	background-image: url('../images/rock.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+		opacity: 1;
+}
+.paper:hover {
+	height: 100px;
+	width: 100px;
+	background-image: url('../images/paper.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+		opacity: 1;
+}
+.scissors:hover {
+	height: 100px;
+	width: 100px;
+	background-image: url('../images/scissors.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+		opacity: 1;
+}
+.gamecontainer {
+	width: 400px;
+	height: 700px;
+	margin: 0 auto;
+	padding-top: 220px;
+	background: white url('../images/bg.jpg') no-repeat center;
+	background-size: cover;
+}
+.endmessage {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: .85;
+	text-align: center;
+	padding-top: 250px;
+	color: white;
+	font-size: 40px;
+	z-index: 1;
+}
+.btncolord {
+	color: black;
+}
